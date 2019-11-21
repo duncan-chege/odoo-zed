@@ -1,0 +1,144 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1,h3,p{
+    margin: 0;
+}
+
+.logo {
+    width: 116px;
+    height: 69px;
+}
+
+.main-nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding-left: 8px;
+    height: 4.5em;
+}
+
+.main-nav__items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.main-nav__items>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.intro {
+    background: rgba(191, 191, 191, 0.92);
+    height: calc(100vh - 4.5em);
+    width: 100%;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro__title {
+    margin: auto auto 30px auto;
+    width: 90%;
+}
+
+.intro__title>h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #215469;
+    margin: 0;
+}
+
+.intro__title span {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2C46D0;
+}
+
+.intro__title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #474B4B;
+}
+
+.intro__title button {
+    display: block;
+    margin: 40px auto;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 3px solid #1B4C61;
+    border-radius: 15px;
+    color: #1B4C61;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.intro img {
+    align-self: end;
+    width: 100%;
+    height: 489px;
+    object-fit: cover;
+}
+
+.odoo-products {
+    height: 100vh;
+    display: grid;
+    grid-template: 1fr 2fr / 1fr 2fr;
+    grid-template-areas:
+        'whatis definition'
+        'apps needs';
+}
+
+.odoo-products__whatis {
+    grid-area: whatis;
+    margin: 40px auto;
+    width: 90%;
+    border-right: dashed;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1.1;
+    color: #9D9C9C;
+}
+
+.odoo-products__definition {
+    grid-area: definition;
+    margin: 60px auto;
+    width: 90%;
+    font-size: 20px;
+}
+
+.odoo-products__apps {
+    grid-area: apps;
+    margin: 20px auto;
+    width: 90%;
+    border-right: dashed;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1.1;
+    color: #9D9C9C;
+}
+
+.odoo-products__needs {
+    grid-area: needs;
+    margin-top: 10px;
+}
+
+.odoo-products__needs>h3 {
+    text-align: center;
+    font-weight: bold;
+    color: #545454;
+}
+
+.odoo-products__needs__examples{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
