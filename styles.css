@@ -141,4 +141,44 @@ h1,h3,p{
 .odoo-products__needs__examples{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template-areas:
+        'sales services'
+        'finances market';
+}
+
+.sales{
+    grid-area: sales;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.sales>h4{
+    text-align: center;
+}
+
+.sales__items{
+    display: flex;
+}
+
+.items__icons{
+    width: 56px;
+    height: 56px;
+}
+
+.services{
+    grid-area: services;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.services>h4{
+    text-align: center;
+}
+
+.services__items>img{
+    display: flex;
+}
+
+.services__items>.items__icons{
+    vertical-align: text-bottom;
 }
