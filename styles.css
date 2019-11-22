@@ -152,12 +152,17 @@ h1,h3,p{
     width: 90%;
 }
 
-.sales>h4{
+.sales>h4, .services>h4{
     text-align: center;
 }
 
-.sales__items{
+.sales__items, .services__items{
     display: flex;
+    justify-content: space-evenly;
+}
+
+.sales__items p, .service__items p{
+    text-align: center;
 }
 
 .items__icons{
@@ -169,16 +174,4 @@ h1,h3,p{
     grid-area: services;
     margin: 20px auto;
     width: 90%;
-}
-
-.services>h4{
-    text-align: center;
-}
-
-.services__items>img{
-    display: flex;
-}
-
-.services__items>.items__icons{
-    vertical-align: text-bottom;
 }
