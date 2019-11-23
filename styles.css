@@ -23,7 +23,7 @@ h1,h3,p{
 .main-nav__items {
     display: flex;
     justify-content: space-around;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .main-nav__items>a {
@@ -93,42 +93,36 @@ h1,h3,p{
     height: 100vh;
     display: grid;
     grid-template: 1fr 2fr / 1fr 2fr;
-    grid-template-areas:
-        'whatis definition'
-        'apps needs';
 }
 
 .odoo-products__whatis {
-    grid-area: whatis;
     margin: 40px auto;
     width: 90%;
     border-right: dashed;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.1;
     color: #9D9C9C;
 }
 
 .odoo-products__definition {
-    grid-area: definition;
-    margin: 60px auto;
+    margin: 40px auto;
     width: 90%;
     font-size: 20px;
 }
 
 .odoo-products__apps {
-    grid-area: apps;
-    margin: 20px auto;
     width: 90%;
+    margin: auto;
+    padding: 120px 0;
     border-right: dashed;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.1;
     color: #9D9C9C;
 }
 
 .odoo-products__needs {
-    grid-area: needs;
     margin-top: 10px;
 }
 
@@ -141,27 +135,19 @@ h1,h3,p{
 .odoo-products__needs__examples{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
-    grid-template-areas:
-        'sales services'
-        'finances market';
+    row-gap: 15px;
 }
 
-.sales{
-    grid-area: sales;
-    margin: 20px auto;
-    width: 90%;
-}
-
-.sales>h4, .services>h4{
+.sales>h4, .services>h4, .finances>h4, .market>h4{
     text-align: center;
 }
 
-.sales__items, .services__items{
+.sales__items, .services__items, .finance__items, .market__items{
     display: flex;
     justify-content: space-evenly;
 }
 
-.sales__items p, .service__items p{
+.sales__items>div, .services__items>div, .finance__items>div, .market__items>div{
     text-align: center;
 }
 
@@ -170,8 +156,16 @@ h1,h3,p{
     height: 56px;
 }
 
-.services{
-    grid-area: services;
+.odoo-products__needs>button{
+    display: block;
     margin: 20px auto;
-    width: 90%;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 3px solid #1B4C61;
+    border-radius: 15px;
+    color: #1B4C61;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
