@@ -169,3 +169,20 @@ h1,h3,p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+.odoo-integrations{
+    height: 100vh;
+    background-color: #215368;
+}
+
+.odoo-integrations>h1{
+    padding-top: 15px;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+}
+
+.odoo-integrations>h2{
+    text-align: center;
+    color: white;
+}
