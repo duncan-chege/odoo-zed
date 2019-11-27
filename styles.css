@@ -235,3 +235,14 @@ h1,h3,p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
+
+.odoo-pricing{
+    height: 100vh;
+}
+
+.odoo-pricing>h1{
+    padding-top: 15px;
+    font-size: 45px;
+    text-align: center;
+    color: #545554;
+}
