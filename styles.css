@@ -96,7 +96,7 @@ h1,h3,p{
 }
 
 .odoo-products__whatis {
-    margin: 40px auto;
+    margin: 30px auto;
     width: 90%;
     border-right: dashed;
     font-weight: bold;
@@ -114,16 +114,12 @@ h1,h3,p{
 .odoo-products__apps {
     width: 90%;
     margin: auto;
-    padding: 120px 0;
+    padding: 90px 0;
     border-right: dashed;
     font-weight: bold;
     font-size: 30px;
     line-height: 1.1;
     color: #9D9C9C;
-}
-
-.odoo-products__needs {
-    margin-top: 10px;
 }
 
 .odoo-products__needs>h3 {
@@ -158,7 +154,7 @@ h1,h3,p{
 
 .odoo-products__needs>button{
     display: block;
-    margin: 20px auto;
+    margin: 45px auto;
     background-color: transparent;
     padding: 5px 20px;
     border: 3px solid #1B4C61;
@@ -175,14 +171,67 @@ h1,h3,p{
     background-color: #215368;
 }
 
-.odoo-integrations>h1{
+.odoo-integrations__title{
+    height: 20%;
+}
+
+.odoo-integrations__title>h1{
     padding-top: 15px;
     font-size: 45px;
     text-align: center;
     color: white;
 }
 
-.odoo-integrations>h2{
+.odoo-integrations__title>h2{
     text-align: center;
+    color: #3CC3CC;
+}
+
+.odoo-integrations__steps{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    row-gap: 15px;
+    height: 70%;
+    align-items: center;
+}
+
+.step-1, .step-2, .step-3, .step-4{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.step-icon>img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.step-icon>p{
+    text-align: center;
+    font-weight: 700;
     color: white;
+    font-size: 18px;
+}
+
+.desc{
+    margin: auto;
+    padding-left: 30px;
+    font-weight: 600;
+    color: #58CAFB;
+    padding-right: 20px;
+}
+
+.odoo-integrations>button{
+    display: block;
+    margin: 5px auto;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
