@@ -4,7 +4,9 @@ body {
     margin: 0;
 }
 
-h1,h3,p{
+h1,
+h3,
+p {
     margin: 0;
 }
 
@@ -128,31 +130,40 @@ h1,h3,p{
     color: #545454;
 }
 
-.odoo-products__needs__examples{
+.odoo-products__needs__examples {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     row-gap: 15px;
 }
 
-.sales>h4, .services>h4, .finances>h4, .market>h4{
+.sales>h4,
+.services>h4,
+.finances>h4,
+.market>h4 {
     text-align: center;
 }
 
-.sales__items, .services__items, .finance__items, .market__items{
+.sales__items,
+.services__items,
+.finance__items,
+.market__items {
     display: flex;
     justify-content: space-evenly;
 }
 
-.sales__items>div, .services__items>div, .finance__items>div, .market__items>div{
+.sales__items>div,
+.services__items>div,
+.finance__items>div,
+.market__items>div {
     text-align: center;
 }
 
-.items__icons{
+.items__icons {
     width: 56px;
     height: 56px;
 }
 
-.odoo-products__needs>button{
+.odoo-products__needs>button {
     display: block;
     margin: 45px auto;
     background-color: transparent;
@@ -166,28 +177,28 @@ h1,h3,p{
     font-weight: 600;
 }
 
-.odoo-integrations{
+.odoo-integrations {
     height: 100vh;
     background-color: #215368;
 }
 
-.odoo-integrations__title{
+.odoo-integrations__title {
     height: 20%;
 }
 
-.odoo-integrations__title>h1{
+.odoo-integrations__title>h1 {
     padding-top: 15px;
     font-size: 45px;
     text-align: center;
     color: white;
 }
 
-.odoo-integrations__title>h2{
+.odoo-integrations__title>h2 {
     text-align: center;
     color: #3CC3CC;
 }
 
-.odoo-integrations__steps{
+.odoo-integrations__steps {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     row-gap: 15px;
@@ -195,26 +206,29 @@ h1,h3,p{
     align-items: center;
 }
 
-.step-1, .step-2, .step-3, .step-4{
+.step-1,
+.step-2,
+.step-3,
+.step-4 {
     padding-left: 20px;
     display: flex;
     flex-direction: row;
 }
 
-.step-icon>img{
+.step-icon>img {
     width: 120px;
     height: 120px;
     object-fit: contain;
 }
 
-.step-icon>p{
+.step-icon>p {
     text-align: center;
     font-weight: 700;
     color: white;
     font-size: 18px;
 }
 
-.desc{
+.desc {
     margin: auto;
     padding-left: 30px;
     font-weight: 600;
@@ -222,7 +236,7 @@ h1,h3,p{
     padding-right: 20px;
 }
 
-.odoo-integrations>button{
+.odoo-integrations>button {
     display: block;
     margin: 5px auto;
     background-color: transparent;
@@ -236,13 +250,95 @@ h1,h3,p{
     font-weight: 600;
 }
 
-.odoo-pricing{
+.odoo-pricing {
     height: 100vh;
 }
 
-.odoo-pricing>h1{
+.odoo-pricing>h1 {
     padding-top: 15px;
     font-size: 45px;
     text-align: center;
     color: #545554;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.the-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    transition: transform .4s;
+}
+
+.the-card:hover{
+    transform: scale(1.2);
+}
+
+.the-card>h4{
+    color: #76526C;
+    padding: 25px;
+    margin: 0;
+}
+
+.card-amount{
+    background-color: #DCE6FF;
+    font-weight: bold;
+}
+
+.card-amount>h6{
+    position: relative;
+    display: inline;
+    font-size: 15px;
+    top: -10px;
+    color: #447598;
+}
+
+.card-amount>h4{
+    display: inline;
+    font-size: 40px;
+    color: #6F1660;
+}
+
+.card-amount>h5{
+    margin: 0;
+    padding: 15px;
+    color: #447598;
+}
+
+.the-card>h5{
+    margin-bottom: 15px;
+    color: #215368;
+}
+
+.modules{
+    color: #21536881;
+    font-weight: 700;
+    font-size: smaller;
+}
+
+.the-card>h6{
+    font-size: small;
+    margin: 10px;
+    color: #02A19E;
+}
+
+.the-card>button{
+    background-color: #7C3769;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 13px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
