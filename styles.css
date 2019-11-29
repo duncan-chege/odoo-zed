@@ -277,22 +277,22 @@ p {
     transition: transform .4s;
 }
 
-.the-card:hover{
+.the-card:hover {
     transform: scale(1.2);
 }
 
-.the-card>h4{
+.the-card>h4 {
     color: #76526C;
     padding: 25px;
     margin: 0;
 }
 
-.card-amount{
+.card-amount {
     background-color: #DCE6FF;
     font-weight: bold;
 }
 
-.card-amount>h6{
+.card-amount>h6 {
     position: relative;
     display: inline;
     font-size: 15px;
@@ -300,36 +300,36 @@ p {
     color: #447598;
 }
 
-.card-amount>h4{
+.card-amount>h4 {
     display: inline;
     font-size: 40px;
     color: #6F1660;
 }
 
-.card-amount>h5{
+.card-amount>h5 {
     margin: 0;
     padding: 15px;
     color: #447598;
 }
 
-.the-card>h5{
+.the-card>h5 {
     margin-bottom: 15px;
     color: #215368;
 }
 
-.modules{
+.modules {
     color: #21536881;
     font-weight: 700;
     font-size: smaller;
 }
 
-.the-card>h6{
+.the-card>h6 {
     font-size: small;
     margin: 10px;
     color: #02A19E;
 }
 
-.the-card>button{
+.the-card>button {
     background-color: #7C3769;
     padding: 5px 20px;
     border: none;
@@ -342,3 +342,49 @@ p {
     margin-bottom: 10px;
 }
 
+.contact {
+    height: 100vh;
+    background-color: #202529;
+}
+
+.contact>h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.address-n-contacts {
+    align-self: center;
+    margin-left: 15px;
+}
+
+.address-n-contacts h1 {
+    color: #BCBCBD;
+}
+
+hr {
+    background-color: wheat;
+    width: 17%;
+    height: 6px;
+    margin-left: 0;
+}
+
+.address-n-contacts p {
+    color: #FD9C5A;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.address-n-contacts div:last-child {
+    margin-top: 4em;
+}
+
+.address-n-contacts div:first-child {
+    margin-top: -4em;
+}
