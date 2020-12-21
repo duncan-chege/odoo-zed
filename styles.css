@@ -343,8 +343,8 @@ p {
 }
 
 .contact {
-    height: 100vh;
     background-color: #202529;
+    padding: 2em 0;
 }
 
 .contact>h1 {
@@ -356,7 +356,6 @@ p {
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 100%;
 }
 
 .address-n-contacts {
@@ -383,8 +382,4 @@ hr {
 
 .address-n-contacts div:last-child {
     margin-top: 4em;
-}
-
-.address-n-contacts div:first-child {
-    margin-top: -4em;
 }
